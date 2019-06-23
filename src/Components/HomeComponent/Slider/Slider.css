@@ -1,0 +1,105 @@
+
+.mainSlider1 {
+    width:100vw;
+    height:60vh;
+    background:linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)),
+    url('http://drive.google.com/uc?export=view&id=1RtZqjK0K2MBsQKoYVzTJK7ROzZVZ4hMQ') center/cover no-repeat;
+}
+
+.mainSlider2 {
+  width: 100vw;
+  height: 60vh;
+  background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)),
+  url('http://drive.google.com/uc?export=view&id=1nGeTxmjPydxA2yC5iRCrjeGlKO7xBv77') center/cover no-repeat;
+}
+
+.mainSlider3 {
+  width: 100vw;
+  height: 60vh;
+  background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)),
+  url('http://drive.google.com/uc?export=view&id=1S3z7K0CzBCoDm90lF0b0vJIiAkISYOm2') center/cover no-repeat;
+}
+
+.mainSlider4 {
+  width: 100vw;
+  height: 60vh;
+  background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)),
+  url('http://drive.google.com/uc?export=view&id=1wEydV9cpr9Nxcx9O4vDypaWxodDL9Ds1') center/cover no-repeat;
+}
+
+.mainSliderExplain {
+    width:100%;
+    height: 100%;
+    display: grid;
+    justify-items:center;
+    align-items: center;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.sliderButton {
+    width:100vw;
+    position: absolute;
+    top: 42.5vh;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.buttonRight {
+    display:grid;
+    justify-items: flex-end;
+    padding-right:3rem;
+    cursor:pointer;
+    transition: .5s ease;
+}
+
+.buttonLeft {
+    padding-left: 3rem;
+   
+}
+
+.buttonLeft svg:hover{
+     cursor:pointer;
+    transition: .5s ease;
+    color: #1d3977;
+}
+
+.buttonRight svg:hover {
+     cursor:pointer;
+    transition: .5s ease;
+  color: #1d3977;
+}
+
+@media screen and (max-width:776px) {
+  .mainSliderExplain {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+  
+  .sliderButton {
+    position: absolute;
+    top:15vh;
+    width:100%;
+    height:50% ;
+  }
+
+  .buttonLeft {
+    padding: 0;
+   
+  }
+
+  .buttonRight {
+    padding : 0;
+  }
+
+  .buttonLeft svg {
+    display: none;
+    
+  }
+
+  .buttonRight svg {
+    display: none ;
+    
+  }
+}

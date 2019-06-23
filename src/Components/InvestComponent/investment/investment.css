@@ -1,0 +1,50 @@
+.invest {
+    width: 100vw;
+    height: 100vh;
+    padding: 2rem 3rem 0 3rem;
+}
+
+.investTitle {
+    padding-bottom:2rem;
+    display:grid;
+    justify-items: flex-start;
+    width: 100%;
+}
+
+.investTitle h1 {
+  font-size: 2.5rem;
+  border-bottom: 5px solid #26396f;
+}
+
+
+.InvestBox {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items:center;
+    grid-gap:1.5rem;
+    padding: 0 3rem 0 3rem;
+}
+
+@media screen and (max-width:776px) {
+  .invest {
+    padding: 0;
+    height:  80vh;
+  }
+
+  .investTitle {
+    padding:1rem 0 1rem 1rem;
+  }
+  
+  .investTitle h1 {
+      margin: 0;
+      font-size: 1.5rem;   
+  }
+
+  .InvestBox {
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      grid-gap:0;
+      padding: 0 0.5rem 0 0.5rem;
+  }
+
+}

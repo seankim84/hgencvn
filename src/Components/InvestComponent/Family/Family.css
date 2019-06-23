@@ -1,0 +1,61 @@
+.Family {
+  width: 100vw;
+  height: 200vh;
+}
+
+.FamilyTitle {
+  padding: 0 0 2rem 3rem;
+  display: grid;
+  justify-items: flex-start;
+  width: 100%;
+}
+
+.FamilyBackground {
+    width:100vw;
+    height: 90vh;
+    position: absolute;
+    z-index: -1;
+    opacity: .5;
+}
+
+.FamilyTitle h1 {
+  font-size: 2.5rem;
+  border-bottom: 5px solid #a52218;
+}
+
+.FamilyBox {
+    display:grid ;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.FamilyImagemodify {
+  width:100%;
+  height: auto;
+}
+
+.FamilyImagemodify img {
+  height: 28vh;
+}
+
+@media screen and (max-width:776px) {
+  .Family {
+    height: 118vh;
+  }
+
+  .FamilyTitle {
+    padding: 0 0 1rem 1rem;
+  }  
+  .FamilyTitle h1 {
+    font-size:1.5rem;
+  }
+  .FamilyBox {
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 0 
+  }
+
+  .FamilyImagemodify img{
+    width:100%;
+    height:20vh;
+  }
+}

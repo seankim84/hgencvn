@@ -1,0 +1,64 @@
+.Greeting {
+  background:#f8f8f8;
+  height: 85vh;
+  width: 100vw;
+}
+
+.GreetingTitle {
+  padding: 2.5rem 0 1.5rem 3rem;
+  display: grid;
+  justify-items: flex-start;
+  width: 100%;
+}
+
+.GreetingTitle h1 {
+  font-size: 2.5rem;
+  border-bottom: 5px solid #a52218;
+}
+
+
+.GreetingExplain {
+  display:grid;
+  align-items: center;
+  padding: 0 8rem 0 8rem;
+  font-size: 1.2rem;
+  line-height: 2.2rem;
+}
+
+.ceoExplain2 {
+  display:grid;
+  grid-template-columns:1.2fr 0.8fr;
+  grid-gap: 1.5rem;
+}
+
+.ceoExplain3 {
+  padding-top: 2.5rem;
+}
+
+@media screen and (max-width:776px) {
+  .Greeting {
+    height:45vh ;
+  }
+
+  .GreetingTitle {
+    padding: 1rem 0  1rem 1rem;
+  }
+  .GreetingTitle h1 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+
+  .GreetingExplain {
+    padding: 1rem 0 1rem 1rem;
+  }
+
+  .ceoExplain1 {
+    text-align: center;
+    font-size:0.8rem;
+    padding-right:1rem;
+  }
+
+  .ceoExplain2 {
+    display:  none;
+  }
+}

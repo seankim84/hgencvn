@@ -1,0 +1,24 @@
+.ant-drawer-content {
+    background: black;
+}
+
+
+.DrawerItems {
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.MenuDrawer {
+    padding-right:0.3rem;
+    display: grid;
+    align-items: center;
+}
+
+.DrawerItems a {
+    color: white;
+    font-size:1rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: lighter;
+    padding-bottom:1rem ;
+}

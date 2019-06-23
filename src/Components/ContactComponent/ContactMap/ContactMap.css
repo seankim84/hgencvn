@@ -1,0 +1,44 @@
+.MapContainer {
+  width:100vw;
+  height:80vh;
+}
+
+.MapContainer .ant-steps-label-horizontal {
+  display:none;
+}
+
+.MapTitle {
+  padding: 2rem 0 0.5rem 3rem;
+  display: grid;
+  justify-items: flex-start;
+  width: 100%;
+}
+.MapTitle h1 {
+  font-size: 2.5rem;
+  border-bottom: 5px solid #26396f;
+}
+
+.steps-action {
+  display:grid;
+  justify-items:flex-end;
+  padding-right:2rem;
+}
+
+.googleMap {
+
+}
+
+@media screen and (max-width:776px) { 
+
+  .MapContainer {
+    height: 85vh; 
+  }
+
+  .MapTitle {
+    padding: 1rem 0 1rem 1rem;
+  }
+  .MapTitle h1  {
+    font-size:1.5rem;
+    margin:0;
+  }
+}

@@ -1,0 +1,26 @@
+.CivilMain {
+  width: 100%;
+  height: 40vh;
+  background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)),
+    url('http://drive.google.com/uc?export=view&id=1QHktcXTprX22z5NFI-8E1Pyu0rVSfZ4I') center/cover fixed no-repeat;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+.CivilMain h1 {
+  color: #ffffff;
+  font-size: 2rem;
+}
+
+@media screen and (max-width:776px) {
+  .CivilMain {
+    padding: 0 1rem;
+  }
+
+  .CivilMain h1 {
+    margin: 0;
+    font-size: 1rem;
+    text-align: center;
+  }
+}

@@ -1,0 +1,82 @@
+.downloadForm {
+    width:100%;
+    height: 60vh;
+    padding: 1rem 0 2rem 1rem;
+}
+
+.downloadTitle {
+  padding: 0 0 0.5rem 3rem;
+  display: grid;
+  justify-items: flex-start;
+  width: 100%;
+}
+
+.downloadTitle h1 {
+  font-size: 2.5rem;
+  border-bottom: 5px solid #a52218;
+}
+
+.downloading {
+  width:100%;
+  height:70%;
+  display:grid;
+  grid-gap: 2rem;
+  grid-template-columns: 1fr 1fr;
+}
+
+.download1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height:100%;
+  font-size: 2.5rem;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)),
+  url("http://drive.google.com/uc?export=view&id=1bam-v1198dXEC8E6dfpMMcCS3wDfYS50") center/cover no-repeat;
+  cursor: pointer;
+  transition: 0.3s ease;
+  font-family: 'Oswald', sans-serif;
+}
+
+.download1 a {
+  color: white;
+}
+
+.download1:hover {
+  padding-left: 0.3rem;
+}
+
+.download2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height:100%;
+  font-size: 2.5rem;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)),
+  url("http://drive.google.com/uc?export=view&id=1sVZhZomqdjZE0GJg6K04z4lltmfNUG8A") center/cover no-repeat;
+  cursor: pointer;
+  transition: 0.3s ease;
+  font-family: 'Oswald',
+  sans-serif;
+}
+
+.download2:hover {
+  padding-left: 0.3rem;
+}
+
+.download2 a {
+  color: white;
+}
+
+@media screen and (max-width:776px) {
+  .downloadForm {
+    display:none;
+  }
+}

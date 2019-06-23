@@ -1,0 +1,108 @@
+.HeaderMain {
+  width:100%;
+  height:100%;
+}
+
+.Header {
+  width:100%;
+}
+
+.blueLine {
+  width: 100%;
+  height: 2vh;
+  background: #223973;
+  margin-bottom:0.5rem;
+}
+
+.redLine {
+  width: 100%;
+  height: 2vh;
+  background: #B40404;
+  margin-top: 0.5rem;
+}
+
+.HeaderNav {
+  display:grid;
+  grid-template-columns: 1fr 6fr;
+}
+
+.HeaderTitle {
+  padding-left:1rem;
+  width:100%;
+  height:100%;
+}
+
+.HeaderNav nav ul {
+  width:100%;
+  height:100%;
+  display:grid;
+  grid-template-columns: repeat(6,1fr);
+  justify-items: center;
+  align-items: center;
+  font-family: 'Merriweather',serif;
+  list-style: none;
+  
+}
+
+.HeaderNav a {
+  text-decoration: none;
+  font-size: 1.2rem ;
+  color: #000000;
+}
+
+.HeaderNav nav ul li:hover {
+  padding-left:0.5rem;
+  cursor: pointer;
+  transition: .5s ease;
+}
+
+
+
+@media screen and (min-width:776px) {
+  .ShadowHeader {
+    display: none;
+  }
+}
+  @media screen and (max-width:776px) {
+    .Header {
+      display: none;
+    }
+
+    .HeaderMain {
+      display: block;
+    }
+
+    .ShadowHeader {
+      width: 100%;
+      height: 100%;
+      border-top: .5rem solid #223973;
+      border-bottom: .5rem solid #B40404;
+    }
+
+
+    .ShadowTitle {
+      padding:0.2rem 0 0.2rem 0;
+      width:100%;
+      height:100%;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .ShadowLogo {
+      width: 30%;
+      height:30%;
+      display: flex;
+      justify-items: center;
+      padding-left: 0.5rem;
+    }
+
+    .ShadowMenu {
+      display:grid;
+      justify-items: flex-end;
+    }
+
+    
+}
+
+
+

@@ -1,0 +1,209 @@
+.Doit {
+    width: 100vw;
+    height: 100vh;
+    background: #222328;
+}
+
+.DoitTitle {
+  padding-top: 3rem;
+  display: grid;
+  justify-items: center;
+  padding-bottom: 3rem;
+}
+
+.DoitTitle h1 {
+  margin: 0;
+  color: #ffffff;
+  font-size: 2.5rem;
+  border-bottom: 5px solid #a52218;
+}
+
+.DoitTitle h3 {
+    padding-top: 2rem;
+    padding-left: 3rem;
+    color: #ffffff;
+    width:100%;
+    display: grid;
+    justify-items: left;
+}
+
+.DoitTitle span {
+    font-size: 1.2rem;
+    padding-top: 2rem;
+    padding-left: 3rem;
+    color: #e6e6e6;
+    width:100%;
+    display: grid;
+    justify-items: left;
+}
+
+
+.DoitBox {
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+    padding: 0 2rem 0 2rem;
+    width: 100%;
+    height: 60%;
+}
+
+.DoitBox p {
+  display:none;
+}
+
+.InnerBox1 {
+    background: url('http://drive.google.com/uc?export=view&id=1SFP7q0G4l-DN4XtFnj66Usn82bc7fgSh') center/cover no-repeat;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.5s ease;
+    cursor: zoom-in;
+  }
+
+.InnerBox2 {
+  background: url('http://drive.google.com/uc?export=view&id=1Hv15nb34tBNCNWL6C86GDkrLRhfRyhKQ') center/cover no-repeat;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.5s ease;
+  cursor: zoom-in;
+}
+
+.InnerBox3 {
+  background: url('http://drive.google.com/uc?export=view&id=1l-wePfexpukdkKkj9_sJGyeeur_rYkkQ') center/cover no-repeat;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.5s ease;
+  cursor: zoom-in;
+}
+
+.InnerBox4 {
+  background: url('http://drive.google.com/uc?export=view&id=13aMuGL1Gsc2rgc_08KNVXfWXy9z_-0e9') center/cover no-repeat;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.5s ease;
+  cursor: zoom-in;
+}
+
+.InnerBox5 {
+  background: url('http://drive.google.com/uc?export=view&id=1B2B_fMZAY-ErFsVlAX4CLs-OGoO8255Y') center/cover no-repeat;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.5s ease;
+  cursor: zoom-in;
+}
+
+.InnerBox6 {
+  background: url('http://drive.google.com/uc?export=view&id=16w4QoPr8AKQg7cr7hQc0rLw-_uHZoYAM') center/cover no-repeat;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.5s ease;
+  cursor: zoom-in;
+}
+
+.InnerBox7 {
+  background: url('http://drive.google.com/uc?export=view&id=1kk_UArvt8wFyiqtN0gaZL7n6udoWGtHf') center/cover no-repeat;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.5s ease;
+  cursor: zoom-in;
+}
+
+.InnerBox8 {
+  background: url('http://drive.google.com/uc?export=view&id=19H1hJPoB_TY18mjfPpHjPciWJk9HbmGS') center/cover no-repeat;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.5s ease;
+  cursor: zoom-in;
+}
+
+.InnerBox1:hover {
+  transform:scale(1.1);           
+  -webkit-transform:scale(1.1);  
+  -moz-transform:scale(1.1);     
+  -o-transform:scale(1.1);        
+}
+
+.InnerBox2:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+.InnerBox3:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+.InnerBox4:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+.InnerBox5:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+.InnerBox6:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+.InnerBox7:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+.InnerBox8:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+
+@media screen and (max-width:776px) { 
+
+    .Doit {
+      width: 100vw;
+      height: 80vh;
+    }
+    .DoitTitle {
+      padding-top:1.2rem;
+      padding-bottom: 0.5rem;
+    }
+
+    .DoitTitle h1 {
+      font-size: 2rem
+    }
+
+    .DoitTitle h3 {
+      display: flex;
+      justify-content: center;
+      font-size:1.2rem;
+      padding: 1rem 0 0 0;
+    }
+
+    .DoitTitle span {
+      font-size:0.7rem;
+      text-align: center;
+      padding: 0.5rem 1rem 0 1rem;
+    }
+
+    .DoitBox {
+      padding: 0.5rem;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 1rem;
+    }
+}

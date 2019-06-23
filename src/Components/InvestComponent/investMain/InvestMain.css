@@ -1,0 +1,21 @@
+.InvestMain {
+  width: 100%;
+  height: 40vh;
+  background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)),
+    url('http://drive.google.com/uc?export=view&id=1owXfLoX1loXtFm3pSg6wFw1CJGIZSFrC') center/cover fixed no-repeat;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+.InvestMain h1 {
+  color: #ffffff;
+  font-size: 2rem;
+}
+
+@media screen and (max-width:776px) {
+  .InvestMain h1 {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+}

@@ -1,0 +1,29 @@
+.PlantMain {
+  width: 100%;
+  height: 40vh;
+  background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)),
+    url('http://drive.google.com/uc?export=view&id=1z6xrmG4dp6wVSzEcTOFKdsDOJOLkKak7') center/cover fixed no-repeat;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+.PlantMain h1 {
+  color: #ffffff;
+  font-size: 2rem;
+  
+  text-align: center;
+}
+
+@media screen and (max-width:776px) {
+
+  .PlantMain {
+    padding: 0 1rem;
+  }
+  
+  .PlantMain h1 {
+    margin: 0;
+    font-size: 1rem;
+    text-align: center;
+  }
+}

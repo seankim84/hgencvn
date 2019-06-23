@@ -1,0 +1,166 @@
+.FactoryMap {
+  width: 100vw;
+  height: 90vh;
+  padding: 2rem 3rem 0rem 2rem;
+}
+
+.mapTitle {
+  padding-bottom: 2rem;
+  display: grid;
+  justify-items: flex-start;
+  width: 100%;
+}
+
+.mapTitle h1 {
+  font-size: 2.5rem;
+  border-bottom: 5px solid #26396f;
+}
+
+.mapBox {
+    display:grid;
+    grid-template-columns: 0.8fr 1.2fr;
+}
+
+.mapExplain {
+    padding-left:2.5rem;
+    display:flex;
+    flex-direction: column;
+    justify-content:flex-start;
+}
+
+.Layout {
+  width:100%;
+  height:100%;
+}
+
+.layOutTitle1 {
+    color: #223973;
+    font-size: 2rem;
+    padding-bottom:0.8rem;
+}
+.layOutTitle2 {
+  font-size: 2rem;
+  color:#a52218;
+}
+
+.mapList {
+    padding-top:1rem;
+    font-size: 1.5rem;
+}
+
+.ListMap {
+    display: inline-block;
+    padding-bottom: 1rem;
+    cursor: pointer;
+    font-family: 'Oswald', sans-serif;
+}
+
+.ListMap p {
+  margin:0;
+}
+
+.hoverlayout1:hover{
+  padding-left: 1rem;
+  transition: .3s ease;
+  color:black;
+}
+
+.hoverlayout2:hover {
+  padding-left: 1rem;
+  transition: .3s ease;
+  color: black;
+}
+
+.hoverlayout3:hover {
+  padding-left: 1rem;
+  transition: .3s ease;
+  color: black;
+}
+
+.hoverlayout4:hover {
+  padding-left: 1rem;
+  transition: .3s ease;
+  color: black;
+}
+
+.hoverlayout5:hover {
+  padding-left: 1rem;
+  transition: .3s ease;
+  color: black;
+}
+
+.hoverlayout6:hover {
+  padding-left: 1rem;
+  transition: .3s ease;
+  color: black;
+}
+
+
+/* Factory Modal  */
+
+.ant-modal {
+    display:grid ;
+    justify-content: center;
+}
+
+.ant-modal-content {
+  width: auto;
+}
+
+.ant-modal-body {
+    width: 40vw;
+    height:auto;
+}
+
+.ant-modal-confirm-body-wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.ant-modal-confirm-content img {
+  width: 100%;
+  height: 80%;
+}
+
+.factoryModal {
+    width: 100%;
+    height:100%;
+}
+
+@media screen and (max-width:776px) {
+
+  .FactoryMap {
+    padding: 1rem 0 1rem 0;
+    height: 93vh;
+  }
+
+  .mapTitle{
+    padding: 1rem 0 0 1rem;
+  }   
+  .mapTitle h1 {
+    font-size:1rem;
+    margin: 0;
+  }
+  .mapBox {
+    display:flex;
+    flex-direction: column;
+  }
+
+  .mapExplain {
+    padding: 1rem 0 0 1rem;
+  }
+
+  .layOutTitle1 {
+    font-size:1.2rem;
+    padding:0;
+  }
+
+  .layOutTitle2 {
+    font-size:1.2rem;
+    padding-bottom: 0.5rem;
+  }
+  .mapList {
+    padding-top:0;
+    font-size:0.8rem;
+  }
+}

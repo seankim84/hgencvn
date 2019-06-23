@@ -1,0 +1,209 @@
+.Construct {
+    width:100vw;
+    height: 105vh;
+    padding: 2rem 3rem 2rem 3rem;
+}
+
+.constructTitle {
+  padding-bottom: 2rem;
+  display: grid;
+  justify-items: flex-start;
+  width: 100%;
+}
+
+.constructTitle h1 {
+  font-size: 2.5rem;
+  border-bottom: 5px solid #a52218;
+}
+
+.constructBox {
+    padding-bottom: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+
+.constructIcon {
+    display: grid;
+    justify-items: center;
+    padding-bottom: 1rem;
+}
+
+
+.constructExplain h4 {
+    font-size: 1.4rem;
+    display:flex;   
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+.constructExplain p {
+    text-align:center;
+    margin:0;
+}
+
+.factoryBox {
+    width: 100%;
+    height: 50vh;   
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.factoryExplain1 {
+  background:#e6e6e6;
+}
+
+.factoryExplain2 {
+    background: #343C44;
+}
+
+.factoryInnerExplain1 {
+    padding-top: 1.5rem;
+    width:100%;
+    height: 100%;
+    color: black;
+    display:flex;
+    flex-direction: column;
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+.factoryInnerExplain1 h1 {
+    font-size: 2rem;
+    padding-bottom: 2rem;
+    margin: 0;
+    display:grid;
+    justify-items: center;
+}
+
+.factoryInnerExplain1 p {
+    margin: 0;
+    font-size:1.5rem;
+    padding: 0 0 1rem 2rem;
+}
+
+.factoryInnerExplain1 i {
+    color: #a52218;
+}
+
+.factoryButton {
+    padding-top:3rem ;
+    display:grid;
+    justify-items: center;
+    font-size:1.3rem;
+    color: #000000;
+}
+
+
+
+.factoryButton button {
+    padding: 0.3rem 2rem 0.3rem 2rem;
+    background: #ffffff;
+    border:none ;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.factoryButton button a {
+    color: black;
+}
+
+.factoryButton button a:hover {
+    color: white ;
+}
+
+.factoryButton button:hover {
+  background: black;
+  color: white;
+}
+
+.factoryExplain2 {
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 2rem 2rem 2rem 2rem;
+    grid-row-gap: 1rem;
+}
+
+.innerFactoryPhoto {
+    width:27vw;
+    height:22vh ;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.innerFactoryPhoto img:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+}
+
+@media screen and (max-width:776px) {
+  .Construct {
+      padding: 0;
+      height: 110vh;
+  }
+
+  .constructTitle {
+      padding: 1rem 0 1rem 1rem;
+  }
+  .constructTitle h1 {
+      font-size: 1.5rem;
+  }
+
+  .constructBox h4{
+    font-size:1rem;   
+    margin: 0;
+  }
+
+  .constructBox p {
+      margin: 0;
+      padding:0.5rem 0.5rem 0 0.5rem;
+      text-align: center;
+      font-size:0.8rem;
+  }
+
+  .constructIcon svg {
+      font-size:1.5rem;
+  }
+  
+  .factoryBox {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .factoryExplain1 span{
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+
+  .factoryInnerExplain1 h1 {
+      padding-bottom: 1rem;
+  }
+
+  .factoryInnerExplain1 p {
+      font-size: 1rem;
+  }
+
+  .constructExplain p {
+      display:none;
+  }
+
+  .factoryButton {
+    padding:1rem 0 1rem 0;
+  }
+
+  .factoryButton button {
+      font-size :1rem;
+  }
+
+  .factoryButton a  {
+      color: black ;
+  }
+
+  .factoryExplain2 {
+      padding: 0 ;
+      grid-gap:0;
+  }
+  .innerFactoryPhoto {
+      width:100%;
+      height:100%;
+  }
+}

@@ -1,0 +1,44 @@
+.FactoryOrganize {
+  width: 100vw;
+  height: 125vh;
+  padding: 0rem 3rem 2rem 3rem;
+}
+
+.organizeTitle {
+  padding-bottom: 2rem;
+  display: grid;
+  justify-items: flex-start;
+  width: 100%;
+}
+
+.organizeTitle h1 {
+    font-size: 2.5rem;
+    border-bottom: 5px solid #a52218;
+}
+
+.organizePhoto {
+    width:100%;
+    height:auto;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width:776px) {
+  .FactoryOrganize {
+    padding: 0;
+    height: 45vh;
+  }
+
+  .organizeTitle {
+    padding: 0 0 1rem 1rem;
+  }
+  .organizeTitle h1 {
+    margin:0;
+    font-size:1rem;
+  }
+
+  .organizePhoto img {
+    width:100%;
+    height:100%;
+  }
+}

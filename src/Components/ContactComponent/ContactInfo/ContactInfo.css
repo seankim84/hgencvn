@@ -1,0 +1,93 @@
+.contactInfo {
+  width:100vw;
+  height: 60vh; 
+  padding:2rem 3rem 3rem 3rem;
+}
+
+.contactInfoBox {
+  width:100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.InnerContactBox {
+  width:100%;
+  height:100%;
+}
+
+.contactBoxTitle {
+  display: grid;
+  justify-content: center;
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+}
+
+.contactBoxTitle h1 {
+  margin: 0;
+}
+
+.contactContent {
+  padding-left:2rem;
+  display: grid;
+  align-items:center;
+  width:100%;
+  height:100%;
+  font-family: 'Oswald', sans-serif;
+}
+
+.contactContent p {
+  font-size:1.3rem;
+  margin: 0;
+  font-weight: 300;
+}
+
+.InnerContent {
+  display: grid;
+  grid-template-columns: 0.5fr 1.5fr;
+  align-items : center;
+}
+
+.InnerContent span {
+  color: #26396f;
+  font-size:1rem;
+}
+
+@media screen and (max-width:776px) {
+  .contactInfo {
+    height: 85vh ;
+    padding: 2rem 0.5rem 0 1rem;
+  }
+
+  .contactInfoBox {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1.5rem;
+  }
+
+  .contactBoxTitle h1{
+    font-size:1.2rem;
+  }
+
+  .InnerContactBox  {
+    height: auto;
+  }
+
+  .contactContent {
+    height: auto;
+    padding: 1rem 0  1.5rem 0;
+  }
+
+  .contactContent p {
+    font-size: 1rem;
+  }
+
+  .contactContent span {
+    font-size:0.8rem ;
+  }
+
+  .InnerContent {
+    padding: 1rem 0 1rem 0;
+  }
+
+}
